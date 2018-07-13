@@ -5,7 +5,7 @@ class SignIn extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div>Sign in here!</div> );
+        return ( <div>This is Home</div> );
     }
 }
  

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import styles from './App.css';
-import SignIn from './auth/SignIn';
+import Home from './views/home/Home';
+import About from './views/about/About'
+import Contact from './views/contact/Contact'
 
 class App extends Component {
     constructor(props) {
@@ -10,7 +12,9 @@ class App extends Component {
     render() { 
         return ( 
             <div className={styles.app}>
-                <SignIn/>
+                <Home/>
+                <About/>
+                <Contact/>
             </div> 
         );
     }
